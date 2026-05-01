@@ -36,7 +36,7 @@ export default function Recorder() {
       type: "audio/wav"
     });
 
-    const res = await axios.post("http://10.147.196.144/predict", formData, {
+    const res = await axios.post("http://10.65.53.171/predict", formData, {
       headers: { "Content-Type": "multipart/form-data" }
     });
 
